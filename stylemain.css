@@ -36,3 +36,17 @@ article p{
 article b{
     color: #0D2B57;
 }
+
+.solucaowhats{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.solucaowhats img{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
