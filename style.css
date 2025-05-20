@@ -14,7 +14,7 @@ body{
 
 header{
     width: 100%;
-    padding: 20px 8%;
+    padding: 20px 0;
     background-color: #E6EEF3;
 }
 
@@ -24,11 +24,14 @@ header{
     align-items: center;
     justify-content: space-around;
     height: 8vh;
+    margin: 0 auto;
+    max-width: 1440px
 }
 
 .nav_logo img{
     height: auto;
     width: 100%;
+    max-width: 150px;
     
 }
 
