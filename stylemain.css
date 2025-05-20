@@ -1,5 +1,4 @@
 
-
 .solucao{
     padding: 5rem;
 }
@@ -41,12 +40,54 @@ article b{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .solucaowhats img{
     height: auto;
-    width: auto;
+    max-width: 100%;
     margin-top: 10px;
     border-radius: 5px;
     border: solid 1px black;
+}
+
+.quemsomos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.perfil{
+    max-width: 475px;
+    border: 3px solid #E6EEF3; 
+    border-radius: 10px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.fotoperfil{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.iconeperfil{
+    height: 24px;
+    width: 24px;
+}
+
+.perfil p{
+    color: #E6EEF3;
+    text-align: justify;
+}
+
+.perfil a{
+    text-decoration: none;
+    color: aqua;
 }
