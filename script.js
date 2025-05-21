@@ -20,3 +20,4 @@ perguntasFaq.forEach(pergunta => {
         itemFaq.classList.toggle("ativo"); 
     });
 });
+
