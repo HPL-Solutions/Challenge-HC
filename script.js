@@ -21,3 +21,19 @@ perguntasFaq.forEach(pergunta => {
     });
 });
 
+
+const contactForm = document.querySelector('#contato form'); 
+if (contactForm) {
+
+    contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        if (contactForm.checkValidity()) {
+            alert('mensagem enviada'); 
+            contactForm.reset(); 
+        } else {
+            if (typeof contactForm.reportValidity === 'function') {
+                contactForm.reportValidity();
+            }
+        }
+    });
+}

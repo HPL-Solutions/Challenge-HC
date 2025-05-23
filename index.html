@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="stylemain.css">
   <script defer src="script.js"></script>
+  <link rel="icon" href="img/favicon.png" type="image/png" alt="icone">
 </head>
 
 <body>
@@ -50,13 +51,16 @@
               Essas mensagens também são enviadas ao cuidador, garantindo suporte mesmo nos casos em que o paciente depende de terceiros.
             </p>
             <div class="solucaowhats">
-              <img src="/img/solucao1.jpg" alt="print do WhatsApp mostrando a solução">
-              <img src="/img/solucao2.png" alt="print do WhatsApp mostrando a solução">
+              <img src="img/solucao1.png" alt="print do WhatsApp mostrando a solução">
+              <img src="img/solucao2.png" alt="print do WhatsApp mostrando a solução">
             </div>
             <p>
               <b>Pós consulta:</b> Após a consulta, o chatbot continua ativo, enviando instruções, direcionando os links de acesso para o pós-consulta e abrindo espaço para que o paciente relate desconfortos, 
               dificuldades com o tratamento ou outras necessidades. Esses relatos são encaminhados diretamente ao IMREA, facilitando uma resposta mais rápida e direcionada da equipe.
             </p>
+            <div class="solucaowhats">
+              <img src="img/solucao3.png" alt="print do WhatsApp mostrando a solução">
+            </div>
             <p>
               <b>Canal para tirar dúvidas: </b> Além disso, o chatbot funciona como um canal de suporte, respondendo dúvidas frequentes, como a data da próxima consulta, 
               como acessar a videochamada e quais documentos são necessários. 
@@ -83,7 +87,7 @@
       
       <div class="quemsomos" id="quemsomos">
         <div class="perfil">
-          <img class="fotoperfil" src="/img/perfilPedro.png" alt="Foto do Pedro">
+          <img class="fotoperfil" src="img/perfilPedro.png" alt="Foto do Pedro">
           <p>Pedro Mariutti</p>
           <p>RM 75999</p>
           <p><a href="https://www.linkedin.com/in/pedromariutti/" target="_blank"><img class="iconeperfil" src="img/linkedin.png" alt="icone linkedin"> Linkedin </a></p>
@@ -91,7 +95,7 @@
         </div>
 
         <div class="perfil">
-          <img class="fotoperfil" src="/img/perfilHenrique.png" alt="foto do henrique">
+          <img class="fotoperfil" src="img/perfilHenrique.png" alt="foto do henrique">
           <p>Henrique Orellana</p>
           <p>RM 565608</p>
           <p><a href="https://www.linkedin.com/in/henriqueorellana/" target="_blank"><img class="iconeperfil" src="img/linkedin.png" alt="icone linkedin"> Linkedin </a></p>
@@ -99,7 +103,7 @@
         </div>
 
         <div class="perfil">
-          <img class="fotoperfil" src="/img/perfilLeo.png" alt="foto do leo">
+          <img class="fotoperfil" src="img/perfilLeo.png" alt="foto do leo">
           <p>Leonardo Aragaki</p>
           <p>RM 562944</p>
           <p><a href="https://www.linkedin.com/in/leonardo-aragaki-rodrigues-066a5aa1/" target="_blank"><img class="iconeperfil" src="img/linkedin.png" alt="icone linkedin"> Linkedin </a></p>
@@ -169,13 +173,21 @@
         <span class="error-message" id="telefone-error"></span> 
         
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
         <span class="error-message" id="mensagem-error"></span> 
         
         <button type="submit">Enviar</button>
         </form>
     </div>
     </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 HPL Solutions. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Pedro Mariutti, Henrique Orellana & Leonardo Aragaki</p>
+        <p><a href="#home" class="footer-link">Voltar ao topo</a></p>
+      </div>
+    </footer>
   </main>
 </body>
 </html>

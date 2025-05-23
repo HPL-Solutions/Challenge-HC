@@ -4,7 +4,6 @@
     margin: 0 auto;
 }
 
-
 h1{
     font-weight: 600;
     text-align: center;
@@ -267,4 +266,36 @@ article b{
 
 .pergunta-faq:hover {
     background-color: #dbe7ed; 
+}
+
+footer {
+    background-color: #0D2B57; 
+    color: #E6EEF3;         
+    padding: 30px 0;          
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;         
+    border-top: 3px solid #E6EEF3;
+}
+
+.footer-content {
+    max-width: 1440px;      
+    margin: 0 auto;
+    padding: 0 20px;        
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-link {
+    color: aqua;              
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
